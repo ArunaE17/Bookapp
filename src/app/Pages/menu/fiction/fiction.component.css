@@ -1,0 +1,61 @@
+.banner{
+    background-image: url(../../../../assets/images/bgfic5.jpg);
+    height:900px;
+    background-position:center top;
+    background-size:cover;
+}
+#header{
+    width:100%;
+    text-align:center;
+    padding:5px;
+    /*white-space:nowrap;*/
+}
+div.scroll{
+    overflow-y: auto;
+   overflow-x: hidden;
+    width:100px;
+    height: 1000px;
+    
+}
+span{
+    /*display:inline-block;*/
+    margin:25px;
+}
+#header .slide{
+    display: inline-block;
+}
+h1{
+    color:green;
+    text-align: center;
+    margin:25px;
+    font-weight: bold;
+}
+/*.btns{
+    position: absolute;
+    top: 216px;
+    left: 328px;
+    display: flex;
+}
+.btn{
+    background: transparent;
+    border: none;
+    margin: 87px;
+    font-size: 88px;
+    outline: none;
+    color: grey;
+}*/
+.btn{
+    color:black;
+}
+/*.btn i:hover{
+    cursor: pointer;
+}*/
+h4{
+    color:aqua;
+    margin-top:10px;
+}
+a{
+    top:100px;
+    bottom: 10px;
+    filter:drop-shadow(10px 10px 10px white);
+ }

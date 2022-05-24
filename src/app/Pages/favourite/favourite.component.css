@@ -1,0 +1,32 @@
+.banner{
+    background-image: url(../../../assets/images/bg1.jpg);
+    height:900px;
+    background-position:center top;
+    background-size:cover;
+
+}
+#header{
+    width:100%;
+    text-align:center;
+    padding:5px;
+    /*white-space:nowrap;*/
+}
+div.scroll{
+    overflow-y: auto;
+    overflow-x: hidden;
+    width:100px;
+    height:1000px;
+}
+span{
+    /*display:inline-block;*/
+    margin:25px;
+}
+#header .slide{
+    display: inline-block;
+}
+h1{
+    margin:25px;
+}
+.btn{
+    color:red;
+} 
